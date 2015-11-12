@@ -10,7 +10,7 @@ Usage: wipy-ftp.py [-v --defaults] ACTION [ARGS]
 
 ACTIONS are:
 - "write-ini" create ``wipy-ftp.ini`` with default settings
-- "install"  copy boot.py, main.py and /lib from the PC to the WiPy
+- "initialize"  copy boot.py, main.py and /lib from the PC to the WiPy
 - "sync-lib" copies only /lib
 - "sync-top" copies only boot.py, main.py
 - "config-wlan" ask for SSID/Password and write wlanconfig.py on WiPy
